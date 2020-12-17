@@ -55,7 +55,7 @@ class Game {
                      
                      players[index -1].x = x;
                      players[index - 1].y = y;
-                     players[index - 1].debug = true
+                     //players[index - 1].debug = true
                      players[index - 1].setCollider("obb", 0, -30, 110, 10, 0);///COMPLETE
                        
                      if(index === player.index){
